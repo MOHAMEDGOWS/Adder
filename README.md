@@ -42,9 +42,33 @@ Carry = AB + ACin+BCin
 
 
 ## Program:
+~~~
+1.	Half Adder
+module exp3(a,b,sum,carry);
+input a,b;
+output sum,carry;
+xor(sum,a,b);
+and(carry,a,b);
+endmodule
+
+2.	Full Adder
+module exp3b(a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+wire x,p,q,r;
+xor(x,b,c);
+xor(sum,x);
+and(p,a,b);
+and(q,b,c);
+and(r,a,c);
+or(carry,p,q,r);
+endmodule
+~~~
 
 
 ## RTL Schematic:
+1.	Half Adder
+
 
 
 
