@@ -43,7 +43,7 @@ Carry = AB + ACin+BCin
 
 ## Program:
 ~~~
-1.	Half Adder
+1.Half Adder
 module exp3(a,b,sum,carry);
 input a,b;
 output sum,carry;
@@ -51,7 +51,7 @@ xor(sum,a,b);
 and(carry,a,b);
 endmodule
 
-2.	Full Adder
+2.Full Adder
 module exp3b(a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
@@ -69,11 +69,21 @@ endmodule
 ## RTL Schematic:
 1.	Half Adder
 
+![Screenshot_20230527_084352](https://github.com/MOHAMEDGOWS/Adder/assets/117954463/baa7d085-c177-4f57-8df1-6ceac9ffb2ca)
+
+2.	Full Adder
+
+![Screenshot_20230527_084513](https://github.com/MOHAMEDGOWS/Adder/assets/117954463/1822e15e-17ca-477b-9bb8-accee7dda30c)
 
 
 
 
 ## Timing Diagram:
+1.	Half Adder
+![Screenshot_20230428_013658](https://github.com/MOHAMEDGOWS/Adder/assets/117954463/cdc00c8e-d8a1-4f5c-a3eb-3df1c268fdf4)
+
+2.	Full Adder
+![Screenshot_20230428_015525](https://github.com/MOHAMEDGOWS/Adder/assets/117954463/d86fd3dd-8afc-4a52-b822-a88e34ad9bda)
 
 
 ## Result:
