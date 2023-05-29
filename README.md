@@ -9,6 +9,9 @@ To design and implement half adder and full adder circuit using Verilog HDL and 
 Adders are digital circuits that carry out addition of numbers.
 ### 1.	Half Adder
 Half adder is a combinational circuit that performs simple addition of two binary numbers. The input variables designate the augend and addend bits; the output variables produce the sum and carry. It is necessary to specify two output variables because the result may consist of two binary digits.
+
+
+
 #### Truth table
  ![image](https://github.com/rvinifa/Adder/assets/133735746/469bd63c-0a45-4d7a-a68a-b68bb36c637a)
 
@@ -70,6 +73,9 @@ endmodule
 1.	Half Adder
 
 ![Screenshot_20230527_084352](https://github.com/MOHAMEDGOWS/Adder/assets/117954463/baa7d085-c177-4f57-8df1-6ceac9ffb2ca)
+
+
+
 
 2.	Full Adder
 
